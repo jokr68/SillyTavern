@@ -808,7 +808,7 @@ export function urlHostnameToIPv6(hostname) {
  * @param {string} name Domain name to use
  * @param {boolean} useIPv6 If use IPv6
  * @param {boolean} useIPv4 If use IPv4
- * @returns Promise<boolean> If the URL is valid
+ * @returns {Promise<boolean>} If the URL is valid
  */
 export async function canResolve(name, useIPv6 = true, useIPv4 = true) {
     try {
