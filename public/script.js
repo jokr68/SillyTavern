@@ -587,7 +587,7 @@ var css_send_form_display = $('<div id=send_form></div>').css('display');
 
 var kobold_horde_model = '';
 
-export let token;
+export let token = '';
 
 
 /** The tag of the active character. (NOT the id) */
